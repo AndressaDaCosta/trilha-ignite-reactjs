@@ -40,20 +40,6 @@ rnsctc →	Get the path to color theme props
 rnsctf →	Get the path to fonts theme props
 nbc →	Create Native Base Component
 
-// props: { author: "", content: "" } ex: console.log(props)
 
 
 
-export function Post(props) {
-
-  return (
-  
-    <p>{props.content}</p>
-  )
-}
-
-
-<Post
-				author="Andressa Da Costa"
-				content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab reiciendis! Amet quae laudantium alias neque perferendis animi omnis soluta tempore nostrum! Dignissimos porro sapiente ex quam modi, a quaerat?"
-			/>
