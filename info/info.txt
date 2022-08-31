@@ -1,0 +1,59 @@
+Aulas ReactJS
+
+
+- Fundamentos do React 
+- Bundlers and compilers
+- Criando um projeto react
+- Componentes
+- Propriedades
+
+
+
+
+- brew install n ( node version management)
+- n install lts ( instala ultima versao)
+- n install 18 ( instala versao 18 do node )
+- node -v 
+
+- Criar pagina do projeto
+- npm create vite@latest
+  -Project name: … 
+  ✔ Select a framework: › react
+  ✔ Select a variant: react ou reactts
+
+- cd pasta..
+
+- npm i    
+- npm run dev
+
+- Local: http://127.0.0.1:5173/
+
+
+Snippets:
+
+Snippet	Content
+rnbc →	Create a new React Native Basic Component
+rnso →	Create a new React Native Stylesheet Component
+rnsc →	Create a new React Native Component with Styled Component
+rnscs →	Create a new Styled Component File
+rnsctc →	Get the path to color theme props
+rnsctf →	Get the path to fonts theme props
+nbc →	Create Native Base Component
+
+// props: { author: "", content: "" } ex: console.log(props)
+
+
+
+export function Post(props) {
+
+  return (
+  
+    <p>{props.content}</p>
+  )
+}
+
+
+<Post
+				author="Andressa Da Costa"
+				content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab reiciendis! Amet quae laudantium alias neque perferendis animi omnis soluta tempore nostrum! Dignissimos porro sapiente ex quam modi, a quaerat?"
+			/>
