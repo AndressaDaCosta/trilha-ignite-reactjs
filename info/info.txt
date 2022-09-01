@@ -41,5 +41,5 @@ rnsctf →	Get the path to fonts theme props
 nbc →	Create Native Base Component
 
 
-
+escoped css - Css modules 
 
