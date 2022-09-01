@@ -1,11 +1,15 @@
 // Componente é uma função que retorna HTML, arquivos.jsx
 // JSX = Javascript + XML (HTML) arquivo javascript que contém html
 
+import { Header } from './components/Header';
 import { Post } from './Post';
+
+import './global.css';
 
 export function App() {
 	return (
 		<div>
+    <Header />
 			<Post
 				author="Andressa Da Costa"
 				content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ab reiciendis! Amet quae laudantium alias neque perferendis animi omnis soluta tempore nostrum! Dignissimos porro sapiente ex quam modi, a quaerat?"
