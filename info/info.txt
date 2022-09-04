@@ -43,3 +43,6 @@ nbc →	Create Native Base Component
 
 escoped css - Css modules 
 
+
+ npm i phosphor-react    (ícones)
+
