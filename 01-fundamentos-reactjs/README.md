@@ -25,3 +25,27 @@ a Key ajuda o react a entender o que ja estava em tela e o que ñ estava em tela
 const posts = [1, 2, 3, 4, 5];
 // 0,1,2,3,4
 ```
+
+# Closures no React
+
+```js
+function Comment(props) {
+	const [likes, setlikes] = useState(0);
+
+	function addLike() {
+		setlikes(likes + 1);
+		setlikes(likes + 1);
+	}
+}
+
+Comment(props, 0);
+Comment(props, 1);
+```
+
+```js
+function handleLikeComment() {
+	setLikeCount((state) => {
+		return state + 1;
+	});
+}
+```
