@@ -49,3 +49,48 @@ function handleLikeComment() {
 	});
 }
 ```
+
+# Typescript
+
+## Exemplos JS vs TS:
+
+```js
+function sumAge(users) {
+	let sum = 0;
+
+	for (const user of users) {
+		sum += user.age;
+	}
+
+	return sum;
+}
+
+sumAge('teste');
+// sem erros
+```
+
+```ts
+interface User {
+	name: string;
+	bio: string;
+	age: number;
+}
+
+function sumAge(users: User[]) {
+	let sum = 0;
+
+	for (const user of users) {
+		sum += user.age;
+	}
+
+	return sum;
+}
+
+sumAge([
+	{
+		name: 'Diego',
+		bio: 'CTO @Rocketseat',
+		age: 27
+	}
+]);
+```
