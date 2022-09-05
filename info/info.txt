@@ -46,3 +46,4 @@ escoped css - Css modules
 
  npm i phosphor-react    (ícones)
 
+npm i date-fns   
