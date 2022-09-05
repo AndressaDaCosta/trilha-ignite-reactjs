@@ -8,3 +8,13 @@
 	gap: 2rem;
 	align-items: flex-start; /* pra que fiquem colado no topo, se nao a side bar vai tentar esticar pra ter o msm tam que os posts(padrao é o stratch */
 }
+
+@media (max-width: 768px) {
+	html {
+		font-size: 87.5%;
+	}
+
+	.wrapper {
+		grid-template-columns: 1fr;
+	}
+}
